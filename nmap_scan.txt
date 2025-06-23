@@ -1,0 +1,35 @@
+Starting Nmap 7.95 ( https://nmap.org ) at 2025-06-23 12:56 India Standard Time
+Nmap scan report for 192.168.1.1
+Host is up (0.0051s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE    SERVICE
+21/tcp  open     ftp
+22/tcp  filtered ssh
+53/tcp  open     domain
+80/tcp  open     http
+443/tcp open     https
+MAC Address: B4:3D:08:82:BF:F0 (GX International BV)
+
+Nmap scan report for 192.168.1.2
+Host is up (0.0076s latency).
+All 1000 scanned ports on 192.168.1.2 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: 36:31:B8:BB:7E:2C (Unknown)
+
+Nmap scan report for 192.168.1.5
+Host is up (0.015s latency).
+All 1000 scanned ports on 192.168.1.5 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+MAC Address: E2:C5:0C:3C:EF:60 (Unknown)
+
+Nmap scan report for 192.168.1.4
+Host is up (0.00015s latency).
+Not shown: 995 closed tcp ports (reset)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+902/tcp open  iss-realsecure
+912/tcp open  apex-mesh
+
+Nmap done: 256 IP addresses (4 hosts up) scanned in 40.99 seconds
